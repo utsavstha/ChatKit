@@ -12,6 +12,10 @@
 		0404CFED21B92358006812F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0404CFEB21B92358006812F5 /* Main.storyboard */; };
 		0404CFEF21B9235A006812F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0404CFEE21B9235A006812F5 /* Assets.xcassets */; };
 		0404CFF221B9235A006812F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0404CFF021B9235A006812F5 /* LaunchScreen.storyboard */; };
+		0404CFFA21BA2A47006812F5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CFF921BA2A47006812F5 /* TableViewController.swift */; };
+		0404CFFC21BA2B75006812F5 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CFFB21BA2B75006812F5 /* Messages.swift */; };
+		0404CFFE21BA3310006812F5 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CFFD21BA3310006812F5 /* ChatMessageCell.swift */; };
+		0404D01E21BE6A10006812F5 /* CardFlipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404D01D21BE6A10006812F5 /* CardFlipper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		0404CFEE21B9235A006812F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0404CFF121B9235A006812F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0404CFF321B9235A006812F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0404CFF921BA2A47006812F5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		0404CFFB21BA2B75006812F5 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		0404CFFD21BA3310006812F5 /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		0404D01D21BE6A10006812F5 /* CardFlipper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlipper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				0404CFEE21B9235A006812F5 /* Assets.xcassets */,
 				0404CFF021B9235A006812F5 /* LaunchScreen.storyboard */,
 				0404CFF321B9235A006812F5 /* Info.plist */,
+				0404CFF921BA2A47006812F5 /* TableViewController.swift */,
+				0404CFFB21BA2B75006812F5 /* Messages.swift */,
+				0404CFFD21BA3310006812F5 /* ChatMessageCell.swift */,
+				0404D01D21BE6A10006812F5 /* CardFlipper.swift */,
 			);
 			path = UITest;
 			sourceTree = "<group>";
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0404D01E21BE6A10006812F5 /* CardFlipper.swift in Sources */,
 				0404CFEA21B92358006812F5 /* ViewController.swift in Sources */,
+				0404CFFE21BA3310006812F5 /* ChatMessageCell.swift in Sources */,
+				0404CFFC21BA2B75006812F5 /* Messages.swift in Sources */,
+				0404CFFA21BA2A47006812F5 /* TableViewController.swift in Sources */,
 				0404CFE821B92358006812F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,8 +299,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J6NQ33W7D3;
+				DEVELOPMENT_TEAM = 4MTLVU7BEP;
 				INFOPLIST_FILE = UITest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,8 +318,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J6NQ33W7D3;
+				DEVELOPMENT_TEAM = 4MTLVU7BEP;
 				INFOPLIST_FILE = UITest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
