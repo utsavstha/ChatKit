@@ -16,6 +16,8 @@
 		0404CFFC21BA2B75006812F5 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CFFB21BA2B75006812F5 /* Messages.swift */; };
 		0404CFFE21BA3310006812F5 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CFFD21BA3310006812F5 /* ChatMessageCell.swift */; };
 		0404D01E21BE6A10006812F5 /* CardFlipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404D01D21BE6A10006812F5 /* CardFlipper.swift */; };
+		0490B8F421D872E400837C45 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490B8F321D872E400837C45 /* LeftViewController.swift */; };
+		0490B8F621D873F400837C45 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490B8F521D873F400837C45 /* UIView+Anchors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		0404CFFB21BA2B75006812F5 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		0404CFFD21BA3310006812F5 /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 		0404D01D21BE6A10006812F5 /* CardFlipper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlipper.swift; sourceTree = "<group>"; };
+		0490B8F321D872E400837C45 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		0490B8F521D873F400837C45 /* UIView+Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				0404CFFB21BA2B75006812F5 /* Messages.swift */,
 				0404CFFD21BA3310006812F5 /* ChatMessageCell.swift */,
 				0404D01D21BE6A10006812F5 /* CardFlipper.swift */,
+				0490B8F321D872E400837C45 /* LeftViewController.swift */,
+				0490B8F521D873F400837C45 /* UIView+Anchors.swift */,
 			);
 			path = UITest;
 			sourceTree = "<group>";
@@ -148,10 +154,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0404D01E21BE6A10006812F5 /* CardFlipper.swift in Sources */,
+				0490B8F621D873F400837C45 /* UIView+Anchors.swift in Sources */,
 				0404CFEA21B92358006812F5 /* ViewController.swift in Sources */,
 				0404CFFE21BA3310006812F5 /* ChatMessageCell.swift in Sources */,
 				0404CFFC21BA2B75006812F5 /* Messages.swift in Sources */,
 				0404CFFA21BA2A47006812F5 /* TableViewController.swift in Sources */,
+				0490B8F421D872E400837C45 /* LeftViewController.swift in Sources */,
 				0404CFE821B92358006812F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
